@@ -274,6 +274,32 @@ body .fixed{
 
 }
 
+
+.animated-transparent {
+    color: #fff !important;
+    background:rgba(0,0,0,0.5);
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+
+.animated-transparent::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ccc !important;
+    opacity: 1;
+}
+.animated-transparent::-ms-input-placeholder { /* Microsoft Edge */
+    color: #ccc !important;
+}
+
+
+
 ul.countdown{}
 ul.countdown li{
     list-style: none;
